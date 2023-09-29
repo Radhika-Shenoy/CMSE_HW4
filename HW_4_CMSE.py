@@ -5,7 +5,7 @@
 import pandas as pd
 import streamlit as st 
 
-passenger_exp = pd.read_csv('/Users/radhikavittalshenoy/Downloads/archive-2/train.csv')
+passenger_exp = pd.read_csv('train.csv')
 passenger_exp.describe()
 
 
